@@ -1,0 +1,27 @@
+{
+  "name": "demo-todomvc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "immer": "^9.0.15",
+    "nanoid": "^4.0.0",
+    "preact": "^10.10.1",
+    "react-icons": "^4.4.0",
+    "styled-components": "^5.3.5",
+    "wouter-preact": "2.8.0-alpha.2",
+    "zustand": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@preact/preset-vite": "^2.3.0",
+    "@types/styled-components": "^5.1.26",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  }
+}
